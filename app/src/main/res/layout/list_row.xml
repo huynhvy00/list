@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="3dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageSanPham"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/vin"/>
+    <TextView
+        android:id="@+id/textviewTenSP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vinmart"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:layout_toRightOf="@+id/imageSanPham"
+        android:layout_alignTop="@+id/imageSanPham"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/textviewFreeship"
+        android:text="Chuỗi siêu thị uy tín, sản phẩm đa dạng, vận chuyển siêu tốc"
+        android:layout_toRightOf="@+id/imageSanPham"
+        android:layout_below="@+id/textviewTenSP"
+        android:textColor="#565051"
+        android:textSize="13sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/textviewTien"
+        android:layout_toRightOf="@+id/imageSanPham"
+        android:layout_below="@+id/textviewFreeship"
+        android:text="Tích 3%"
+        android:textSize="13sp"
+
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+</RelativeLayout>
